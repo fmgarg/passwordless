@@ -1,0 +1,113 @@
+<header>
+  <div class="row">
+
+    <div
+      class="col-lg-4 col-xs-12 col-12 headerTitulo"
+      style="marginRight: -50; marginLeft: -50; top:-10px;"
+    >
+      <h1 style="margin: 15px;">DeTito.com</h1>
+    </div>
+
+    <div class="col-lg-4 col-xs-6 col-12">
+      <input
+        class="input-group float-center"
+        type="search"
+        placeholder="buscar productos y servicios..."
+        style="margin-bottom: 10px; top:10px"
+      />
+    </div>
+
+    <!--Carrito del bootstrap theme-->
+    <div class="col-lg-4 col-xs-12 col-12">
+      <a class="btn btn-outline-dark" type="submit" href="/carrito">
+        <h9>Carrito</h9>
+        <p
+          class="badge bg-dark text-white ms-1 rounded-pill"
+          id="totalPrice"
+        ></p>
+      </a>
+    </div>
+    <!--Carrito del bootstrap theme-->
+
+  </div>
+  <div class="row justify-content-center" id="tabla-user">
+  </div>
+
+</header>
+<!--nav bar de bootstrap con menú hamburguesa en responsive-->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarScroll"
+    aria-controls="navbarScroll"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav navbar-nav-scroll">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Inicio<span
+            class="sr-only"
+          >(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../pages/Aboutus.html">Acerca de nosotros<span
+            class="sr-only"
+          >(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="../pages/merchandise.html"
+          id="navbarScrollingDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Productos y servicios
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <li><a
+              class="dropdown-item"
+              href="../pages/merchandise.html"
+            >Electrodomésticos</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a
+              class="dropdown-item"
+              href="../pages/merchandise.html"
+            >Bazar</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a
+              class="dropdown-item"
+              href="../pages/merchandise.html"
+            >Muebles</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a
+              class="dropdown-item"
+              href="../pages/merchandise.html"
+            >Envíos</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a
+              class="dropdown-item"
+              href="../pages/merchandise.html"
+            >Servicios</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../pages/contact.html">Contactenos</a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="../pages/supplier.html"
+          tabindex="-1"
+          aria-disabled="true"
+        >Proveedores</a>
+      </li>
+    </ul>
+  </div>
+</nav>
