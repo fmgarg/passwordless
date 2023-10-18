@@ -84,8 +84,8 @@ const transport = nodemailer.createTransport({
 
 // Make email template for magic link
 const emailTemplate = ({ username, link }) => `
-                                                <h2>Hey ${username}</h2>
-                                                <p>Here's the login link you just requested:</p>
+                                                <h2>Hola,</h2>
+                                                <p>Este es el link que solicitaste, solo debes hacer click o copiarlo y pegarlo en tu navegador para ingresar:</p>
                                                 <p>${link}</p>
                                                 `;
 
